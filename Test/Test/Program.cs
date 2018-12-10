@@ -15,6 +15,8 @@ namespace Test
                 Console.WriteLine(i) ;
             }
             Console.ReadKey();
+
+            int a = 15;
         }
     }
 }
