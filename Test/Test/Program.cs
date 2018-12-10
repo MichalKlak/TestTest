@@ -10,7 +10,11 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("DUPA");
+            for(int i=0; i< 100000; i++)
+            {
+                Console.WriteLine(i) ;
+            }
+            Console.ReadKey();
         }
     }
 }
